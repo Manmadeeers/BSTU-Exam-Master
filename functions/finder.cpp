@@ -1,6 +1,6 @@
 #include "finder.h"
 
-int finder() 
+int finder(string *str) 
 {
     int cnt = 0;
     string path = WAY;
@@ -8,7 +8,7 @@ int finder()
     {
         for (const auto& entry : filesystem::directory_iterator(path)) {
             if (entry.is_directory()) {
-                OUTPUT(entry.path().filename().string());
+                OUTPUT(entry.path().filename().string(), str);
                 cnt++;
             }
         }
@@ -17,7 +17,8 @@ int finder()
     return cnt;
 }
 
-void OUTPUT(string str) {
-    cout << str << std::endl;
+void OUTPUT(string str, string *strp) {
+   cout << str << endl;
+   *strp = str;
 }
 

@@ -8,10 +8,8 @@
 #include <conio.h>
 #include <string>
 #include <fstream>
-using namespace std;
 
-
-
-#include "finder.h"
+#include "TestYourKnowledge.h"
 #include "Tickets_and_Answers.h"
-//#include "error.h"
+#include "Prepare.h"
+; using namespace std;
