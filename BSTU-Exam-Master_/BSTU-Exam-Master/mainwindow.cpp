@@ -1,6 +1,5 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "choise.h"
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -8,6 +7,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    //this->setStyleSheet("background-color:#7536ff");
 }
 
 MainWindow::~MainWindow()
@@ -17,6 +17,7 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_Leave_main_window_clicked()
 {
-
+    choise = new Choise(this);
+    choise->show();
 }
 

@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-c9e867677b2d984e628d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "BSTU-Exam-Master",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "BSTU-Exam-Master::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSTU-Exam-Master-Debug-215d02e9601e27fe04ca.json",
+					"name" : "BSTU-Exam-Master",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BSTU-Exam-Master_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSTU-Exam-Master_autogen-Debug-c98c48733187e4a2b267.json",
+					"name" : "BSTU-Exam-Master_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "BSTU-Exam-Master_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-BSTU-Exam-Master_autogen_timestamp_deps-Debug-7a509e6c3d10f2a8b13a.json",
+					"name" : "BSTU-Exam-Master_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug",
+		"source" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
