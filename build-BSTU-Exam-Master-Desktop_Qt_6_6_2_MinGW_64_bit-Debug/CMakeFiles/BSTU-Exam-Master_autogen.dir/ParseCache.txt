@@ -700,6 +700,6 @@ C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mai
  mdp:C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/moc_predefs.h
 C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/choise.cpp
  uic:ui_choise.h
+C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/main.cpp
 C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/main.cpp

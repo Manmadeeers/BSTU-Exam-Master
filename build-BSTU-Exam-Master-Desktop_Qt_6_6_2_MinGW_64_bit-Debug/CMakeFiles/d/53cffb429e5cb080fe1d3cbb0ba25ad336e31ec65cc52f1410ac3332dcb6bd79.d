@@ -552,6 +552,7 @@ BSTU-Exam-Master_autogen/timestamp: \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.cpp \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.h \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.ui \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/source.qrc \
   .qtc/package-manager/auto-setup.cmake \
   BSTU-Exam-Master_autogen/moc_predefs.h \
   CMakeFiles/3.27.7/CMakeCXXCompiler.cmake \

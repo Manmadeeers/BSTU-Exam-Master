@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
@@ -23,6 +24,7 @@ class Ui_MainWindow
 {
 public:
     QWidget *centralwidget;
+    QLabel *logo;
     QPushButton *Leave_main_window;
     QMenuBar *menubar;
     QStatusBar *statusbar;
@@ -34,9 +36,12 @@ public:
         MainWindow->resize(800, 600);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
+        logo = new QLabel(centralwidget);
+        logo->setObjectName("logo");
+        logo->setGeometry(QRect(180, 10, 521, 461));
         Leave_main_window = new QPushButton(centralwidget);
         Leave_main_window->setObjectName("Leave_main_window");
-        Leave_main_window->setGeometry(QRect(300, 468, 211, 31));
+        Leave_main_window->setGeometry(QRect(358, 494, 84, 45));
         QSizePolicy sizePolicy(QSizePolicy::Policy::Maximum, QSizePolicy::Policy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -62,6 +67,7 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
+        logo->setText(QString());
         Leave_main_window->setText(QCoreApplication::translate("MainWindow", "\320\224\320\260\320\273\320\265\320\265", nullptr));
     } // retranslateUi
 

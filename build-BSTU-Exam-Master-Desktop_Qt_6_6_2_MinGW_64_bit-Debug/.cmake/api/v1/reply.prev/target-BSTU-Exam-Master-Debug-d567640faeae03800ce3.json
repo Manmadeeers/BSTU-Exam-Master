@@ -75,13 +75,13 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 64,
+				"line" : 67,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 47,
+				"line" : 50,
 				"parent" : 0
 			},
 			{
@@ -365,18 +365,19 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				12
 			]
 		}
 	],
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "BSTU-Exam-Master_autogen::@6890427a1f51a3e7e1df"
+			"id" : "BSTU-Exam-Master_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "BSTU-Exam-Master_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "BSTU-Exam-Master_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "BSTU-Exam-Master::@6890427a1f51a3e7e1df",
@@ -489,7 +490,8 @@
 				0,
 				1,
 				2,
-				6
+				6,
+				12
 			]
 		},
 		{
@@ -498,8 +500,8 @@
 			[
 				3,
 				5,
-				8,
-				9
+				9,
+				10
 			]
 		},
 		{
@@ -508,14 +510,16 @@
 			[
 				4,
 				7,
-				10
+				8,
+				11
 			]
 		},
 		{
 			"name" : "CMake Rules",
 			"sourceIndexes" : 
 			[
-				11
+				13,
+				14
 			]
 		}
 	],
@@ -567,6 +571,11 @@
 			"sourceGroupIndex" : 2
 		},
 		{
+			"backtrace" : 4,
+			"path" : "source.qrc",
+			"sourceGroupIndex" : 2
+		},
+		{
 			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/include/ui_mainwindow.h",
@@ -586,8 +595,21 @@
 		},
 		{
 			"backtrace" : 0,
+			"compileGroupIndex" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
 			"isGenerated" : true,
 			"path" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/timestamp.rule",
+			"sourceGroupIndex" : 3
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp.rule",
 			"sourceGroupIndex" : 3
 		}
 	],

@@ -17,7 +17,7 @@
    <widget class="QRadioButton" name="radioButton">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>50</x>
       <y>220</y>
       <width>313</width>
       <height>42</height>
@@ -35,7 +35,7 @@
    <widget class="QRadioButton" name="radioButton_2">
     <property name="geometry">
      <rect>
-      <x>260</x>
+      <x>50</x>
       <y>290</y>
       <width>299</width>
       <height>42</height>
@@ -67,6 +67,36 @@
     <property name="text">
      <string>Выберите вариант использования:</string>
     </property>
+   </widget>
+   <widget class="QComboBox" name="comboBox">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>230</y>
+      <width>261</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>ОАИП</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>АЛОВС</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Математический анализ</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>ОПИ</string>
+     </property>
+    </item>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

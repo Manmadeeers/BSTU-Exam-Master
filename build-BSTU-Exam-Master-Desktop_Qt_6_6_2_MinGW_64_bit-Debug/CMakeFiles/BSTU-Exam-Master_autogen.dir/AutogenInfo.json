@@ -287,7 +287,8 @@
 		"C:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets.cmake",
 		"C:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginTargets-relwithdebinfo.cmake",
 		"C:/Qt/6.6.2/mingw_64/lib/cmake/Qt6Widgets/Qt6QWindowsVistaStylePluginAdditionalTargetInfo.cmake",
-		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake"
+		"C:/Qt/Tools/CMake_64/share/cmake-3.27/Modules/GNUInstallDirs.cmake",
+		"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/source.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master",
 	"DEP_FILE" : "C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/deps",

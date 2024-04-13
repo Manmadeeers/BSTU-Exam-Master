@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-c9e867677b2d984e628d.json",
+					"jsonFile" : "directory-.-Debug-03d234279c4724153110.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "BSTU-Exam-Master::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-BSTU-Exam-Master-Debug-215d02e9601e27fe04ca.json",
+					"jsonFile" : "target-BSTU-Exam-Master-Debug-d567640faeae03800ce3.json",
 					"name" : "BSTU-Exam-Master",
 					"projectIndex" : 0
 				},
