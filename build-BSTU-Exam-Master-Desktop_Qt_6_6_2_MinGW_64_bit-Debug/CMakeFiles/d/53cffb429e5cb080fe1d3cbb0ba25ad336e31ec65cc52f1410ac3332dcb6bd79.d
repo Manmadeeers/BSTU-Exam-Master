@@ -548,10 +548,15 @@ BSTU-Exam-Master_autogen/timestamp: \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/choise.cpp \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/choise.h \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/choise.ui \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/finder.cpp \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/finder.h \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/main.cpp \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.cpp \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.h \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.ui \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.cpp \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.h \
+  C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.ui \
   C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/source.qrc \
   .qtc/package-manager/auto-setup.cmake \
   BSTU-Exam-Master_autogen/moc_predefs.h \

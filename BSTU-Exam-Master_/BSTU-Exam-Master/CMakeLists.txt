@@ -25,6 +25,9 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         ${PROJECT_SOURCES}
         choise.h choise.cpp choise.ui
         source.qrc
+        finder.cpp
+        finder.h
+        proceed.h proceed.cpp proceed.ui
 
 
 

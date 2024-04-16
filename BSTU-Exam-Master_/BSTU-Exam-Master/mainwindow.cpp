@@ -30,5 +30,6 @@ void MainWindow::on_Leave_main_window_clicked()
 {
     choise = new Choise(this);
     choise->show();
+
 }
 

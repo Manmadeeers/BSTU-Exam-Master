@@ -302,9 +302,21 @@
 			null
 		],
 		[
+			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/finder.h",
+			"MU",
+			"EWIEGA46WW/moc_finder.cpp",
+			null
+		],
+		[
 			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
+			null
+		],
+		[
+			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.h",
+			"MU",
+			"EWIEGA46WW/moc_proceed.cpp",
 			null
 		]
 	],
@@ -384,12 +396,22 @@
 			null
 		],
 		[
+			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/finder.cpp",
+			"MU",
+			null
+		],
+		[
 			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/main.cpp",
 			"MU",
 			null
 		],
 		[
 			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/mainwindow.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.cpp",
 			"MU",
 			null
 		]

@@ -15,6 +15,7 @@
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
+#include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QWidget>
@@ -29,6 +30,7 @@ public:
     QRadioButton *radioButton_2;
     QLabel *label;
     QComboBox *comboBox;
+    QPushButton *go_proceed;
     QMenuBar *menubar;
     QStatusBar *statusbar;
 
@@ -62,6 +64,12 @@ public:
         comboBox->addItem(QString());
         comboBox->setObjectName("comboBox");
         comboBox->setGeometry(QRect(480, 230, 261, 28));
+        go_proceed = new QPushButton(centralwidget);
+        go_proceed->setObjectName("go_proceed");
+        go_proceed->setGeometry(QRect(290, 420, 191, 41));
+        QFont font2;
+        font2.setPointSize(12);
+        go_proceed->setFont(font2);
         Choise->setCentralWidget(centralwidget);
         menubar = new QMenuBar(Choise);
         menubar->setObjectName("menubar");
@@ -87,6 +95,7 @@ public:
         comboBox->setItemText(2, QCoreApplication::translate("Choise", "\320\234\320\260\321\202\320\265\320\274\320\260\321\202\320\270\321\207\320\265\321\201\320\272\320\270\320\271 \320\260\320\275\320\260\320\273\320\270\320\267", nullptr));
         comboBox->setItemText(3, QCoreApplication::translate("Choise", "\320\236\320\237\320\230", nullptr));
 
+        go_proceed->setText(QCoreApplication::translate("Choise", "\320\235\320\260\321\207\320\260\321\202\321\214 ", nullptr));
     } // retranslateUi
 
 };

@@ -81,6 +81,22 @@ build CMakeFiles/BSTU-Exam-Master.dir/choise.cpp.obj: CXX_COMPILER__BSTU-Exam-Ma
   OBJECT_DIR = CMakeFiles\BSTU-Exam-Master.dir
   OBJECT_FILE_DIR = CMakeFiles\BSTU-Exam-Master.dir
 
+build CMakeFiles/BSTU-Exam-Master.dir/finder.cpp.obj: CXX_COMPILER__BSTU-Exam-Master_unscanned_Debug C$:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/finder.cpp || cmake_object_order_depends_target_BSTU-Exam-Master
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\BSTU-Exam-Master.dir\finder.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/include -isystem C:/Qt/6.6.2/mingw_64/include/QtCore -isystem C:/Qt/6.6.2/mingw_64/include -isystem C:/Qt/6.6.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\BSTU-Exam-Master.dir
+  OBJECT_FILE_DIR = CMakeFiles\BSTU-Exam-Master.dir
+
+build CMakeFiles/BSTU-Exam-Master.dir/proceed.cpp.obj: CXX_COMPILER__BSTU-Exam-Master_unscanned_Debug C$:/Users/Manmade/Desktop/BSTU-Exam-Master/BSTU-Exam-Master_/BSTU-Exam-Master/proceed.cpp || cmake_object_order_depends_target_BSTU-Exam-Master
+  DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
+  DEP_FILE = CMakeFiles\BSTU-Exam-Master.dir\proceed.cpp.obj.d
+  FLAGS = -DQT_QML_DEBUG -g -std=gnu++17 -fdiagnostics-color=always
+  INCLUDES = -IC:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/include -isystem C:/Qt/6.6.2/mingw_64/include/QtCore -isystem C:/Qt/6.6.2/mingw_64/include -isystem C:/Qt/6.6.2/mingw_64/mkspecs/win32-g++ -isystem C:/Qt/6.6.2/mingw_64/include/QtWidgets -isystem C:/Qt/6.6.2/mingw_64/include/QtGui
+  OBJECT_DIR = CMakeFiles\BSTU-Exam-Master.dir
+  OBJECT_FILE_DIR = CMakeFiles\BSTU-Exam-Master.dir
+
 build CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp.obj: CXX_COMPILER__BSTU-Exam-Master_unscanned_Debug C$:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp || cmake_object_order_depends_target_BSTU-Exam-Master
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\BSTU-Exam-Master.dir\BSTU-Exam-Master_autogen\EWIEGA46WW\qrc_source.cpp.obj.d
@@ -97,7 +113,7 @@ build CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_so
 #############################################
 # Link the executable BSTU-Exam-Master.exe
 
-build BSTU-Exam-Master.exe: CXX_EXECUTABLE_LINKER__BSTU-Exam-Master_Debug CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/mocs_compilation.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/main.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/mainwindow.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/choise.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp.obj | C$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a || BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen_timestamp_deps
+build BSTU-Exam-Master.exe: CXX_EXECUTABLE_LINKER__BSTU-Exam-Master_Debug CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/mocs_compilation.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/main.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/mainwindow.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/choise.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/finder.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/proceed.cpp.obj CMakeFiles/BSTU-Exam-Master.dir/BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp.obj | C$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a || BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen_timestamp_deps
   FLAGS = -DQT_QML_DEBUG -g
   LINK_FLAGS = -mwindows
   LINK_LIBRARIES = C:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a  C:/Qt/6.6.2/mingw_64/lib/libQt6Gui.a  C:/Qt/6.6.2/mingw_64/lib/libQt6Core.a  -lmpr  -luserenv  -lmingw32  C:/Qt/6.6.2/mingw_64/lib/libQt6EntryPoint.a  -lshell32  -ld3d11  -ldxgi  -ldxguid  -ld3d12  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
@@ -184,7 +200,7 @@ build BSTU-Exam-Master_autogen_timestamp_deps: phony CMakeFiles/BSTU-Exam-Master
 #############################################
 # Utility command for BSTU-Exam-Master_autogen
 
-build BSTU-Exam-Master_autogen: phony CMakeFiles/BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen/include/ui_mainwindow.h BSTU-Exam-Master_autogen/include/ui_choise.h BSTU-Exam-Master_autogen/timestamp BSTU-Exam-Master_autogen/mocs_compilation.cpp BSTU-Exam-Master_autogen_timestamp_deps
+build BSTU-Exam-Master_autogen: phony CMakeFiles/BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen/include/ui_mainwindow.h BSTU-Exam-Master_autogen/include/ui_choise.h BSTU-Exam-Master_autogen/include/ui_proceed.h BSTU-Exam-Master_autogen/timestamp BSTU-Exam-Master_autogen/mocs_compilation.cpp BSTU-Exam-Master_autogen_timestamp_deps
 
 
 #############################################
@@ -209,13 +225,13 @@ build BSTU-Exam-Master_autogen/EWIEGA46WW/qrc_source.cpp | ${cmake_ninja_workdir
 #############################################
 # Phony custom command for CMakeFiles\BSTU-Exam-Master_autogen_timestamp_deps
 
-build CMakeFiles/BSTU-Exam-Master_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/BSTU-Exam-Master_autogen_timestamp_deps: phony C$:/Qt/6.6.2/mingw_64/./bin/uic.exe C$:/Qt/6.6.2/mingw_64/./bin/moc.exe C$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/BSTU-Exam-Master_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/BSTU-Exam-Master_autogen_timestamp_deps: phony C$:/Qt/6.6.2/mingw_64/./bin/moc.exe C$:/Qt/6.6.2/mingw_64/./bin/uic.exe C$:/Qt/6.6.2/mingw_64/lib/libQt6Core.a C$:/Qt/6.6.2/mingw_64/lib/libQt6Widgets.a
 
 
 #############################################
 # Phony custom command for CMakeFiles\BSTU-Exam-Master_autogen
 
-build CMakeFiles/BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen/include/ui_mainwindow.h BSTU-Exam-Master_autogen/include/ui_choise.h | ${cmake_ninja_workdir}CMakeFiles/BSTU-Exam-Master_autogen ${cmake_ninja_workdir}BSTU-Exam-Master_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BSTU-Exam-Master_autogen/include/ui_choise.h: phony BSTU-Exam-Master_autogen/timestamp || BSTU-Exam-Master_autogen_timestamp_deps
+build CMakeFiles/BSTU-Exam-Master_autogen BSTU-Exam-Master_autogen/include/ui_mainwindow.h BSTU-Exam-Master_autogen/include/ui_choise.h BSTU-Exam-Master_autogen/include/ui_proceed.h | ${cmake_ninja_workdir}CMakeFiles/BSTU-Exam-Master_autogen ${cmake_ninja_workdir}BSTU-Exam-Master_autogen/include/ui_mainwindow.h ${cmake_ninja_workdir}BSTU-Exam-Master_autogen/include/ui_choise.h ${cmake_ninja_workdir}BSTU-Exam-Master_autogen/include/ui_proceed.h: phony BSTU-Exam-Master_autogen/timestamp || BSTU-Exam-Master_autogen_timestamp_deps
 
 # =============================================================================
 # Target aliases.
