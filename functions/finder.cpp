@@ -1,24 +1,20 @@
 #include "finder.h"
 
-int finder(string *str) 
+
+vector<string> finder() 
 {
-    int cnt = 0;
     string path = WAY;
+     vector<string> array_of_directorys;
     if (filesystem::exists(path))
     {
         for (const auto& entry : filesystem::directory_iterator(path)) {
             if (entry.is_directory()) {
-                OUTPUT(entry.path().filename().string(), str);
-                cnt++;
+                array_of_directorys.push_back(entry.path().filename().string());
             }
         }
     }
     else cout << "ERROR";
-    return cnt;
+    return array_of_directorys;
 }
 
-void OUTPUT(string str, string *strp) {
-   cout << str << endl;
-   *strp = str;
-}
 

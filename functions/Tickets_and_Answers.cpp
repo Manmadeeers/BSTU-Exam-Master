@@ -1,9 +1,9 @@
 #include "Tickets_and_Answers.h"
 
-char GetQuestion(char idTicket, char idQuestion, string dis) {
+string GetQuestion(char idTicket, char idQuestion, string dis) {
 	idTicket--;
 	char id = (idTicket * 4) + idQuestion;
-	string bufQ, bufA; char returnchar ;
+	string bufQ, bufA, returnchar ;
 	ifstream questions("noDB\\"+dis+"\\questions.koi");
 	ifstream answers("noDB\\"+dis+"\\answers.koi");
 	ifstream correctAnswers("noDB\\"+dis+"\\correctAnswers.koi");
@@ -12,7 +12,7 @@ char GetQuestion(char idTicket, char idQuestion, string dis) {
 		for (char i = 0; i < id; i++) {
 			getline(questions, bufQ);
 			getline(answers, bufA);
-			correctAnswers >> returnchar;
+			getline(correctAnswers, returnchar);
 		}
 		for (int i = 0; i < bufA.length() ;i++){
 		if (bufA[i] == '|'){
@@ -24,12 +24,15 @@ char GetQuestion(char idTicket, char idQuestion, string dis) {
 		cout << "�� ������� �������� ������ � ������ :(" << endl;
 		return NULL;//сделать ошибку
 	}
+	for (int i = 0; i < returnchar.length(); i++){
+		returnchar[i] -= 'A';
+	}
 	questions.close();
 	answers.close();
 	correctAnswers.close();
 	cout << bufQ << endl << bufA << endl << endl;
 	//функции для ввода вместо cout
-	return returnchar - 64;
+	return returnchar;
 }
 
 char GetSizeQuestion(char idTicket, char idQuestion, string dis) {

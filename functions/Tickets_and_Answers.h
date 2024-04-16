@@ -7,7 +7,7 @@
 * idTicket - ����� ������(max 5)
 * idQuestion - ����� �������(max 4)
 */
-char GetQuestion(char idTicket, char idQuestion, string dis);
+string GetQuestion(char idTicket, char idQuestion, string dis);
 
 /*������� ���������� (� char) ���-�� �������
 * idTicket - ����� ������(max 5)
