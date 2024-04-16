@@ -1,17 +1,13 @@
 #pragma once
 #include "main.h"
+#include <vector>
 #include <filesystem>
 #define WAY "noDB/"
 using namespace std;
 
+/// @brief нахождение дисциплин
+/// @return vector дичциплин
+vector<string> finder();
 
-
-/// @brief нахождение и подсчёт дисциплин
-/// @return колличество дисциплин
-int finder(string *);
-
-/// @brief (ЗАИЕНИТЬ!!!) Вывод дисциплины
-/// @param str дисциплина
-void OUTPUT(string str, string *);
 
 
