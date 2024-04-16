@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 
-    int finder()
+int finder(string *str)
 {
     int cnt = 0;
     string path = WAY;

@@ -11,7 +11,7 @@ Choise::Choise(QWidget *parent)
 {
     ui->setupUi(this);
     int amm_of_dis = finder();
-    for(int )
+
 
 
     QComboBox *choose_discipline = ui->comboBox;
