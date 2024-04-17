@@ -4,18 +4,22 @@
 #include <QMainWindow>
 #include <QComboBox>
 #include "finder.h"
+#include <vector>
+#include <QString>
+
 
 Choise::Choise(QWidget *parent)
     : QMainWindow(parent)
     , ui(new Ui::Choise)
 {
     ui->setupUi(this);
-    int amm_of_dis = finder();
-
-
-
     QComboBox *choose_discipline = ui->comboBox;
-    choose_discipline->addItem("test");
+    vector<string>temp_vec = finder();
+    int ammount = finder().size();
+    for(int i=0;i<ammount;i++){
+        string temp = temp_vec[i];
+        choose_discipline->addItem(QString::fromStdString(temp));
+    }
 
 }
 
