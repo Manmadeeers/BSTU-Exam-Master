@@ -14,13 +14,26 @@
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="logo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>10</y>
+      <width>521</width>
+      <height>461</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
    <widget class="QPushButton" name="Leave_main_window">
     <property name="geometry">
      <rect>
-      <x>300</x>
-      <y>468</y>
-      <width>211</width>
-      <height>31</height>
+      <x>358</x>
+      <y>494</y>
+      <width>84</width>
+      <height>45</height>
      </rect>
     </property>
     <property name="sizePolicy">
@@ -36,22 +49,6 @@
     </property>
     <property name="text">
      <string>Далее</string>
-    </property>
-   </widget>
-   <widget class="QFrame" name="frame">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>0</y>
-      <width>120</width>
-      <height>80</height>
-     </rect>
-    </property>
-    <property name="frameShape">
-     <enum>QFrame::StyledPanel</enum>
-    </property>
-    <property name="frameShadow">
-     <enum>QFrame::Raised</enum>
     </property>
    </widget>
   </widget>
