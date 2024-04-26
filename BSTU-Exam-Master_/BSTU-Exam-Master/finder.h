@@ -1,11 +1,11 @@
+#pragma once
 #ifndef FINDER_H
 #define FINDER_H
-#pragma once
 //#include "main.h"
 #include <vector>
 #include <iostream>
 #include <filesystem>
-#define WAY "noDB/"
+#define WAY "noDB\\"
 using namespace std;
 
 /// @brief нахождение дисциплин

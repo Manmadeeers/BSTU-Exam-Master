@@ -30,6 +30,8 @@ if(${QT_VERSION_MAJOR} GREATER_EQUAL 6)
         proceed.h proceed.cpp proceed.ui
         Tickets_and_Answers.cpp
         Tickets_and_Answers.h
+        counter.h counter.cpp
+
 
 
 
