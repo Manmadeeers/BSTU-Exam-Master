@@ -1,9 +1,0 @@
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/BSTU-Exam-Master.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/edit_cache.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/list_install_components.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/local.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/install/strip.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/BSTU-Exam-Master_autogen_timestamp_deps.dir
-C:/Users/Manmade/Desktop/BSTU-Exam-Master/build-BSTU-Exam-Master-Desktop_Qt_6_6_2_MinGW_64_bit-Debug/CMakeFiles/BSTU-Exam-Master_autogen.dir
